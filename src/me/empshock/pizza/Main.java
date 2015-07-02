@@ -4,7 +4,7 @@ import me.empshock.pizza.utils.Pizza;
 import org.bukkit.plugin.java.JavaPlugin;
 import java.util.logging.Logger;
 
-public class Main extends JavaPlugin {
+public class Main extends JavaPlugin implements Pizza {
 
     @Override
     public void onEnable() {
